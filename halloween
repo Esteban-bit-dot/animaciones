@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Feliz Halloween</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="teletaxi-container"></div>
+    <h1> ---Teletaxi--- </h1>
+    </div>
+
+    <div class="halloween-container">
+        <h2> ¡Feliz Halloween! </h2>
+        <img src="https://slm-assets.secondlife.com/assets/24737160/original/ob_154400_gif-anime-halloween-avec-citrouille.gif?1570863629"
+            alt="">
+    </div>
+
+    <div class="mensaje">
+        <img src="c:\Users\SENA\Downloads\picmix.com_1423299.gif" alt="">
+        <h3> teletaxi te desea un feliz halloween este 31 de obtubre</h3>   
+    </div>
+
+    <div class="button">
+        <button>boton1</button>
+        <button>boton2</button>
+        <button>boton3</button>
+    </div>
+
+</body>
+
+</html>
+<style>
+
+    h1 {
+        font-size: 2em;
+        margin: 15px;
+        text-align: center;
+        padding:17px;
+        margin: 15px;
+        cursor:pointer;
+        background-color:orangered ;
+    }
+
+    .halloween-container {
+        text-align: center;
+        font-family: 'Spooky Font', cursive;
+        color: orangered;
+        background-color: black;
+        margin: auto;
+        padding: 150px;
+        width: 700px;
+        height: 700px;
+        background-color: orange;
+
+    }
+
+    h2 {
+        font-size: 5rem;
+        animation: blink 1s infinite;
+
+    }
+
+    @keyframes blink {
+        0% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0.5;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    button {
+        padding: 15px 35px;
+        font-size: 1em;
+        cursor: pointer;
+        background-color: orangered;
+        border: none;
+        border-radius: 5px;
+        color: yellow;
+        transition: background-color 0.3s;
+        margin: 90px;
+        text-align:center;  
+        text-align: end; 
+        
+    }
+ 
+    .button{
+        padding:15px;
+        margin: 17px;
+        cursor:pointer;
+        background-color: red;
+    }
+
+    .mensaje {
+       background-color: yellow;
+       text-align: center;
+       padding:17px;
+       margin: 15px;
+       cursor:pointer; 
+    }
+
+</style>
